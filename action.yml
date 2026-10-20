@@ -1,0 +1,16 @@
+name: 'Hello Custom Action'
+description: 'A simple JavaScript greeting action for Module 7'
+
+inputs:
+  who-to-greet:
+    description: 'Name of the person to greet'
+    required: false
+    default: 'World'
+
+outputs:
+  time:
+    description: 'Time the greeting was generated'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

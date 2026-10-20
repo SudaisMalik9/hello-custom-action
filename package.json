@@ -1,0 +1,17 @@
+
+{
+  "name": "hello-custom-action",
+  "version": "1.0.0",
+  "description": "Custom JavaScript GitHub Action for Module 7",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
+  }
+}
